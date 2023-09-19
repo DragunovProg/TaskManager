@@ -1,7 +1,6 @@
 const goalText = document.querySelector('.goal-text');
 const taskList = document.querySelector('.task-list');
 const buttonAdd = document.querySelector('.btn-add');
-const completeCheckboxes = document.querySelectorAll('.checkbox-complete');
 const deleteButtons = document.querySelectorAll('btn-del');
 
 buttonAdd.onclick = addTask;
