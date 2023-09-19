@@ -43,5 +43,6 @@ document.querySelector('.btn-add').addEventListener('click', ()=> {
 
         taskTitle.innerText = goalText.value;
         taskList.appendChild(taskElement);
+        goalText.value = '';
     }
 })
